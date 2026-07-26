@@ -1,3 +1,58 @@
+# =========================================================================
+# HaxeFlixel / Lime / OpenFL Build Outputs
+# =========================================================================
+# This directory contains all compiled builds (HTML5, Windows, Android, etc.)
+export/
+export*
+
+# Alternative build folders or individual cross-compilation binaries
+bin/
+obj/
+*.swf
+*.n
+*.hl
+*.js
+
+# =========================================================================
+# Haxe & Haxelib Dependencies
+# =========================================================================
+# Local haxelib installations (if using a local path setup)
 .haxelib/
-.haxelsp/recording/
+haxelib/
+
+# Compiler debug logs and crash dumps
 dump/
+*.log
+
+# =========================================================================
+# Integrated Development Environments (IDEs)
+# =========================================================================
+# Visual Studio Code local workspace configuration
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Haxe Language Server protocol recordings
+.haxelsp/
+
+# FlashDevelop / Lime project settings
+*.hxproj
+*.lime
+
+# IntelliJ IDEA workspace files
+.idea/
+*.iml
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS specific folders
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
